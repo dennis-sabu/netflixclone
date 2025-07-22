@@ -8,8 +8,8 @@
 }
 .card-list{
   display: flex;
-  gap: 10px;
-  overflow-x: scroll; ;
+  gap: 15px;
+  overflow-x: scroll;
 
 }
 .card-list::-webkit-scrollbar{
