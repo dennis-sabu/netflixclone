@@ -2,13 +2,14 @@
   "name": "netflow",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
-  },
+  "type": "module","scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "lint": "eslint .",
+  "preview": "vite preview",
+  "homepage": "https://netflixclone-five-eta.vercel.app"
+},
+  "author": "Denis",
   "dependencies": {
     "firebase": "^12.0.0",
     "react": "^19.1.0",
