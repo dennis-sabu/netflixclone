@@ -6,8 +6,8 @@
   "dev": "vite",
   "build": "vite build",
   "lint": "eslint .",
-  "preview": "vite preview"
-  
+  "preview": "vite preview",
+  "homepage": "https://netflixclone-five-eta.vercel.app"
 },
   "author": "Denis",
   "dependencies": {
