@@ -7,12 +7,12 @@ import { getFirestore } from "firebase/firestore"; // If you need Firestore, imp
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBx72sAMerd7kUQkZ5QZAshPLDxNO9on34",
-  authDomain: "netflixclone-37a75.firebaseapp.com",
-  projectId: "netflixclone-37a75",
-  storageBucket: "netflixclone-37a75.firebasestorage.app",
-  messagingSenderId: "891083534685",
-  appId: "1:891083534685:web:bda4280277a05842a2b8b4"
+  apiKey: import.meta.env.API_KEY ,
+  authDomain: import.meta.env.AUTH_DOMAIN,
+  projectId: import.meta.env.PROJECT_ID,
+  storageBucket: import.meta.env.STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.MESSAGING_SENDER_ID,
+  appId: import.meta.env.APP_ID
 };
 
 // Initialize Firebase
